@@ -1,7 +1,7 @@
 #ifndef DATACONTROLLER_H
 #define DATACONTROLLER_H
     #ifndef LIBC_H  
-        #include "lib/lib_c.h"
+        #include "lib_c.h"
     #else
         #include<stdlib.h>
         #include<string.h>
