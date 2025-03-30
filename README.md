@@ -5,7 +5,11 @@ This project repository are based on Small piece  of code that work for big incl
   This small project that help me out to make a auto detect datatype include you can use  these in any kind of project just call    the DATASET & define the pointer ,this data set as like worked of keyword.
   ex: <br>
   <br>//dont need to call any stdio.h,other hadder file just single file can handell entire datatype <br>
-  #include  "data_controller.h"<br>
+  <br>git clone "repo link"<br>Place the folder in the project area <br> Call the function:<br>
+  <li>input(char *arg)</li>
+  <li>processInput(const char *input)</li>
+  <li>printAllocatedData(DATASET *result)</li>
+  <br>#include  "data_controller.h"<br>
   <br>int main(){  
     <br>DATASET *DATA=input("2838hELLO"); //calling the DATASET
     <br>printAllocatedData(DATA);//Print any kind of data type that has decleare through dataset
