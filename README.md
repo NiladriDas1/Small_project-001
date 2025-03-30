@@ -6,11 +6,13 @@ This project repository are based on Small piece  of code that work for big incl
   ex: <br>
   <br>//dont need to call any stdio.h,other hadder file just single file can handell entire datatype <br>
   <br>git clone "repo link"<br>Place the folder in the project area <br> Call the function:<br>
-  <li>input(char *arg)</li>
-  <li>processInput(const char *input)</li>
-  <li>printAllocatedData(DATASET *result)</li>
+  <li>DATASET : Define the automatic datatype through the Pointer </li>
+  <li>input(char *arg):It's support the Null argument & give the user auto data enter option</li>
+  <li>processInput(const char *input): Provide direct input option </li>
+  <li>printAllocatedData(DATASET *result): Print the all data has store in DATASET of variable</li>
+  <br>
   <br>#include  "data_controller.h"<br>
-  <br>int main(){  
+    int main(){  
     <br>DATASET *DATA=input("2838hELLO"); //calling the DATASET
     <br>printAllocatedData(DATA);//Print any kind of data type that has decleare through dataset
     <br>free(DATA); 
