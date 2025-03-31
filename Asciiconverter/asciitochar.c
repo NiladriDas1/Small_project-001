@@ -77,12 +77,3 @@ void Converter(const char *input_str) {
     free(convert);
 }
 
-
-int main(){
-    
-    Converter("Hello world is not real program");
-    printf("\n");
-    Converter("Hey i'm bee");
-
-    return 0;
-}
