@@ -33,5 +33,5 @@ This project repository are based on Small piece  of code that work for big incl
 
     return 0;
 }<div>
-![2025-03-31 09-23-12](https://github.com/user-attachments/assets/bf35092b-7c20-40f2-abd8-d32c1c4cd605)
+
 </div>
