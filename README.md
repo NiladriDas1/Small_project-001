@@ -1,6 +1,6 @@
 # Small_project-001
 This project repository are based on Small piece  of code that work for big included idea's to in implement 
-<h1>Automatic datatype in C</h1><br>
+<li><h1>Automatic datatype in C</h1></li><br>
 <div>
   This small project that help me out to make a auto detect datatype include you can use  these in any kind of project just call    the DATASET & define the pointer ,this data set as like worked of keyword.
   ex: <br>
@@ -18,4 +18,19 @@ This project repository are based on Small piece  of code that work for big incl
     <br>free(DATA); 
     <br>return 0;
   <br>}
+</div>
+<br><li><h1>ASCII CONVERTER</h1></li>
+<br>
+<div>
+  Define the Hadder file asccitochar.h<br>
+  Call the Converter("string/character") function , pass the string <br>
+  <div>
+    <br>int main(){<br>
+    
+    Converter("Hello world is not real program");
+    printf("\n");
+    Converter("Hey i'm bee");
+
+    return 0;
+}<div>
 </div>
