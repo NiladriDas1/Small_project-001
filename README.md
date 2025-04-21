@@ -33,5 +33,6 @@ This project repository are based on Small piece  of code that work for big incl
 
     return 0;
 }<div>
-
+ <br>Stored ASCII values: 72 101 121 32 105 39 109 32 98 101 101 <br>
+  Retrieved string: Hey i'm bee<br>
 </div>
